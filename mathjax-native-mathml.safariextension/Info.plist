@@ -46,7 +46,7 @@
 		</dict>
 	</dict>
 	<key>Update Manifest URL</key>
-        <string>http://fred-wang.github.io/fred-wang/mathjax-native-mathml-safari/manifest.plist</string>
+        <string>http://fred-wang.github.io/mathjax-native-mathml-safari/manifest.plist</string>
 	<key>Website</key>
 	<string>https://github.com/fred-wang/mathjax-native-mathml-safari/</string>
 </dict>
