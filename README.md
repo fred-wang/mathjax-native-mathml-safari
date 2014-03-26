@@ -1,4 +1,6 @@
-mathjax-native-mathml-safari
-============================
+MathJax Native MathML (Safari Extension)
+========================================
 
-Safari Extension to force MathJax to use the native MathML output
+Force MathJax to select the Native MathML output mode.
+
+http://fred-wang.github.io/fred-wang/mathjax-native-mathml-safari/mathjax-native-mathml.safariext
