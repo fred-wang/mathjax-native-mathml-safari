@@ -6,8 +6,7 @@
 
 /* Create a mjx.menu cookie for this document and indicate that the NativeMML
 output mode is selected. */
-var cookie = "mjx.menu=" + escape("renderer:NativeMML");
-document.cookie = cookie + "; path=/";
+document.cookie = "mjx.menu=" + escape("renderer:NativeMML") + "; path=/";
 
 /* Delete the cookie once the page is loaded. We do not want to keep a cookie
 for each domain visited and most pages using MathJax will already have
