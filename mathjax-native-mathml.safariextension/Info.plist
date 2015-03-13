@@ -13,9 +13,9 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
+	<string>1.1.0</string>
 	<key>CFBundleVersion</key>
-	<string>1</string>
+	<string>1.1.0</string>
 	<key>Chrome</key>
 	<dict/>
 	<key>Content</key>
@@ -23,16 +23,19 @@
 		<key>Scripts</key>
 		<dict>
 			<key>End</key>
-			<array>
-			</array>
+			<array/>
 			<key>Start</key>
 			<array>
-		          <string>menu-cookie.js</string>
+				<string>menu-cookie.js</string>
 			</array>
 		</dict>
+		<key>Stylesheets</key>
+		<array>
+			<string>katex.css</string>
+		</array>
 	</dict>
 	<key>Description</key>
-	<string>Force MathJax to select the Native MathML output mode.</string>
+	<string>Force MathJax/KaTeX to select the Native MathML output mode.</string>
 	<key>ExtensionInfoDictionaryVersion</key>
 	<string>1.0</string>
 	<key>Permissions</key>
@@ -46,7 +49,7 @@
 		</dict>
 	</dict>
 	<key>Update Manifest URL</key>
-        <string>http://fred-wang.github.io/mathjax-native-mathml-safari/manifest.plist</string>
+	<string>http://fred-wang.github.io/mathjax-native-mathml-safari/manifest.plist</string>
 	<key>Website</key>
 	<string>https://github.com/fred-wang/mathjax-native-mathml-safari/</string>
 </dict>

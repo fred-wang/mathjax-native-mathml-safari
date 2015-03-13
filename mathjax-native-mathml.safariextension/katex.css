@@ -1,0 +1,28 @@
+/* -*- Mode: CSS; tab-width: 2; indent-tabs-mode:nil; c-basic-offset: 2 -*- */
+/* vim: set ts=2 et sw=2 tw=80: */
+/* This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
+
+/* Reset some CSS properties set by KaTeX and hide the HTML output */
+.katex {
+    display: inline !important;
+    font-style: inherit !important;
+    font-variant: inherit !important;
+    font-weight: inherit !important;
+    font-stretch: inherit !important;
+    font-size: inherit !important;
+    line-height: inherit !important;
+    font-family: inherit !important;
+    white-space: normal !important;
+}
+.katex .katex-mathml {
+    position: static !important;
+    clip: auto !important;
+    height: auto !important;
+    width: auto !important;
+    overflow: visible !important;
+}
+.katex .katex-html {
+    display: none !important;
+}
