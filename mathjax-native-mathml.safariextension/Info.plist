@@ -13,9 +13,9 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.1.0</string>
+	<string>1.2.0</string>
 	<key>CFBundleVersion</key>
-	<string>1.1.0</string>
+	<string>1.2.0</string>
 	<key>Chrome</key>
 	<dict/>
 	<key>Content</key>
@@ -32,10 +32,11 @@
 		<key>Stylesheets</key>
 		<array>
 			<string>katex.css</string>
+			<string>mediawiki.css</string>
 		</array>
 	</dict>
 	<key>Description</key>
-	<string>Force MathJax/KaTeX to select the Native MathML output mode.</string>
+	<string>Force MathJax/KaTeX/MediaWiki to select the Native MathML output mode.</string>
 	<key>ExtensionInfoDictionaryVersion</key>
 	<string>1.0</string>
 	<key>Permissions</key>
